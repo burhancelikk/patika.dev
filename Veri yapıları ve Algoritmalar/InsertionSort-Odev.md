@@ -13,7 +13,10 @@
 
 Big-O Notation O(n^2)
 
-***3.*** Anlamadım.
+***3.*** Time Complexity: 
+Average case: Aradığımız sayının ortada olması,
+  Worst case: Aradığımız sayının sonda olması, 
+   Best case: Aradığımız sayının dizinin en başında olması.
 
 ***4.*** Bu dizine göre 18 sayısı avarage case'e girer.
 
