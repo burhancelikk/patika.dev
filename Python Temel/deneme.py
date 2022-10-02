@@ -23,3 +23,4 @@ satırı
 limon=2
 sonuc=limon*3
 print(sonuc)
+"aaa"*3
