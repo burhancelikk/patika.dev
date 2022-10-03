@@ -54,3 +54,8 @@ len(b)
 "a"<"b"
 "ab"<"b"
 "ab"<"bads"
+
+(5<3) or print("hey")
+(5<3) and print("hey")
+(5>3) or print("hey")
+(5>3) and print("hey")
