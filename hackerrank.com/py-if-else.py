@@ -4,7 +4,15 @@ import random
 import re
 import sys
 
-n=int(input("Please,write to integer"))
+a=int(input("Please,write to integer:"))
 
-if (n>=20):
+if (a > 20):
     print("True")
+else:
+    print("False")
+
+n=int(input())
+
+for i in range(n):
+    print(i**2)
+    i=n+1
