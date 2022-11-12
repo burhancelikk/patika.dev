@@ -11,17 +11,29 @@ for e in l:
     print(b)
     print("******")
 
-    for a,b in l:
-        print("tuple'ın ilk elemanı",a)
-        print("tuple'ın ikinci elemanı",b)
-        print("----------------")
+for a,b in l:
+    print("tuple'ın ilk elemanı",a)
+    print("tuple'ın ikinci elemanı",b)
+    print("----------------")
 
 # enumare() bize (index,element) olarak verecek
 
 adlar=['Tyler','Blake','Cory','Cameron']
 
+for e in adlar:
+    print(e)
+
+print("\n")
+
+for i,e in enumerate(adlar):
+    print(i,"inci eleman:",e)
+
+print("\n")
+
 for i,e in enumerate(adlar,start=1):
     print(i,"indexindeki eleman:",e)
+
+print("\n")
 
 for i,e in enumerate(adlar,start=10):
     print(i,"lokasyonunda bulunan eleman:",e)

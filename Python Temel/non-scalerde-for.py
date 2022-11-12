@@ -1,13 +1,68 @@
-n=int(input())
-arr=list(map(int,input().split())) # Input:1 3 4 6 8 9 6 Output:[1,3,4,6,8,9,6]
+for i in range(1,7):
+    print("iteration:",i)
 
-print(arr)
-A=sorted(arr[:n])
-print(A)
+notlar=[80,90,56,78]
+t=0
+for i in range(len(notlar)):
+    t+=notlar[i]
+ortalama=t/len(notlar)
+print("ortalama:",ortalama)
 
-x=0
-while(x==0):
-    if 2<=n<=10:
-        if -100<=A[x]<=100:
+print("------------")
 
-#arr=map(int,input().split())
+for e in notlar:
+    print(e)
+    e+=10
+    print(e)
+print(notlar)
+
+print("----------------------")
+print(notlar)
+for e in range(len(notlar)):
+    notlar[e]+=5
+print(notlar)
+
+for i in range(len(notlar)):
+    if i==1:
+        continue
+    notlar[i]+=5
+print(notlar)
+
+print("----------------------")
+
+x=int(input("Hangi sayıyı kontrol edeyim?:"))
+
+l=[2,3,40,100,10,1]
+
+for e in l:
+    print(e)
+    if e==x:
+        print("Buldum!!")
+        break
+
+print("----------------------")
+
+d={"student_1":[80,90],"student_2":[85,83],"student_3":[92,97]}
+
+for k in d:
+    print(k)
+
+for k in d:
+    v=d[k]
+    print(v)
+    print(k)
+    print(k,":",v)
+
+for v in d.values():
+    print(v)
+
+b={"A":66,"B":89,"C":70}
+
+for x in b:
+    value = b[x]
+    if value > 85:
+        print(x,value)
+
+for k,v in b.items():
+    print("key degeri:",k,"value degeri:",v)
+
