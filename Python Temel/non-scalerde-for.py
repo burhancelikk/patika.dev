@@ -66,3 +66,17 @@ for x in b:
 for k,v in b.items():
     print("key degeri:",k,"value degeri:",v)
 
+for w in b.items():
+    print(w)
+
+print("\n")
+print("----------------------")
+
+from collections import defaultdict
+d=defaultdict(list)
+d['python'].append("awesome")
+d['something-else'].append("not relevant")
+d['python'].append("Language")
+for i in d.items():
+    print(i)
+
